@@ -112,13 +112,11 @@ const Features = () => {
               key={index}
               variants={itemVariants}
               whileHover={{ 
-                y: -10,
-                rotateY: 5,
+                y: -8,
                 scale: 1.02,
                 transition: { duration: 0.3 }
               }}
               className="group relative bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 dark:border-gray-800 overflow-hidden"
-              style={{ transformStyle: 'preserve-3d' }}
             >
               {/* Animated gradient background */}
               <motion.div
@@ -126,13 +124,12 @@ const Features = () => {
                 style={{ background: `linear-gradient(135deg, ${feature.color})` }}
               />
               
-              {/* Icon with 3D effect */}
+              {/* Icon with subtle effect */}
               <motion.div 
                 whileHover={{ 
-                  rotate: [0, -10, 10, -10, 0],
                   scale: 1.1
                 }}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 0.3 }}
                 className={`relative w-16 h-16 rounded-2xl bg-gradient-to-br ${feature.color} flex items-center justify-center text-white mb-6 shadow-xl`}
               >
                 <div className="absolute inset-0 bg-white/20 rounded-2xl backdrop-blur-sm"></div>

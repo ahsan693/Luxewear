@@ -4,23 +4,11 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 dark:from-gray-900 dark:via-purple-900/20 dark:to-blue-900/20 pt-16">
-      {/* Animated Background Blobs */}
-      <motion.div
-        animate={{ 
-          scale: [1, 1.2, 1],
-          rotate: [0, 180, 360],
-          opacity: [0.3, 0.5, 0.3]
-        }}
-        transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+      {/* Static Background Blobs */}
+      <div
         className="absolute top-20 -left-20 w-96 h-96 bg-gradient-to-r from-pink-400 to-purple-500 rounded-full blur-3xl opacity-30"
       />
-      <motion.div
-        animate={{ 
-          scale: [1, 1.3, 1],
-          rotate: [360, 180, 0],
-          opacity: [0.2, 0.4, 0.2]
-        }}
-        transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
+      <div
         className="absolute bottom-20 -right-20 w-96 h-96 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-full blur-3xl opacity-20"
       />
       

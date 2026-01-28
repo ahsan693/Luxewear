@@ -231,23 +231,19 @@ const ProductShowcase = () => {
             {displayProducts.map((product, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 50, rotateX: -15 }}
-                animate={{ opacity: 1, y: 0, rotateX: 0 }}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ 
-                  duration: 0.6, 
-                  delay: index * 0.05,
-                  type: "spring",
-                  stiffness: 100
+                  duration: 0.4, 
+                  delay: index * 0.03
                 }}
                 whileHover={{ 
-                  y: -15,
-                  rotateY: 5,
+                  y: -8,
                   scale: 1.02,
                   transition: { duration: 0.3 }
                 }}
                 onClick={() => openProductModal(product)}
-                className="group cursor-pointer perspective-1000"
-                style={{ transformStyle: 'preserve-3d' }}
+                className="group cursor-pointer"
               >
                 <div className="bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 backdrop-blur-sm border border-gray-100 dark:border-gray-800">
                   {/* Product Image */}

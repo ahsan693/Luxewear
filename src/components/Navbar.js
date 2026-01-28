@@ -9,9 +9,7 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
 
   return (
-    <motion.nav
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
+    <nav
       className="fixed w-full top-0 z-50 bg-white/95 dark:bg-gray-900/95 backdrop-blur-md shadow-sm"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -125,7 +123,7 @@ const Navbar = () => {
           </div>
         </motion.div>
       </div>
-    </motion.nav>
+    </nav>
   );
 };
 
