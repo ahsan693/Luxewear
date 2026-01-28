@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const CTA = () => {
   return (
-    <section className="relative py-24 bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-600 overflow-hidden">
+    <section className="relative py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-600 overflow-hidden">
       {/* Subtle background pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)', backgroundSize: '50px 50px' }}></div>
@@ -16,25 +16,25 @@ const CTA = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
             Ready to Upgrade Your Wardrobe?
           </h2>
-          <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-white/90 mb-10 sm:mb-12 max-w-2xl mx-auto">
             Join thousands of satisfied customers and experience premium quality fashion.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 sm:mb-16">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-10 py-4 bg-white text-purple-600 font-bold text-lg hover:bg-gray-100 transition-colors shadow-xl"
+              className="w-full sm:w-auto px-8 sm:px-10 py-3 sm:py-4 bg-white text-purple-600 font-bold text-base sm:text-lg hover:bg-gray-100 transition-colors shadow-xl"
             >
               Shop Now
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-10 py-4 border-2 border-white text-white font-bold text-lg hover:bg-white/10 transition-colors"
+              className="w-full sm:w-auto px-8 sm:px-10 py-3 sm:py-4 border-2 border-white text-white font-bold text-base sm:text-lg hover:bg-white/10 transition-colors"
             >
               View Catalog
             </motion.button>

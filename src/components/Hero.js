@@ -37,7 +37,7 @@ const Hero = () => {
               <span className="text-sm uppercase tracking-wider text-pink-600 dark:text-pink-400 font-semibold">New Collection 2026</span>
             </div>
             
-            <h1 className="text-6xl md:text-8xl font-black leading-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black leading-tight">
               <span className="block bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 bg-clip-text text-transparent drop-shadow-2xl">
                 Discover Your
               </span>
@@ -57,12 +57,12 @@ const Hero = () => {
               </motion.span>
             </h1>
             
-            <p className="text-lg text-gray-600 dark:text-gray-400 max-w-lg">
+            <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-lg">
               Elevate your wardrobe with our curated collection of premium essentials. 
               Crafted for comfort, designed for elegance.
             </p>
 
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-4">
               <motion.button
                 whileHover={{ 
                   scale: 1.05,
@@ -70,7 +70,7 @@ const Hero = () => {
                   y: -5
                 }}
                 whileTap={{ scale: 0.95 }}
-                className="group relative px-10 py-5 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 text-white font-bold rounded-full overflow-hidden shadow-2xl"
+                className="group relative px-6 py-3 sm:px-10 sm:py-5 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 text-white font-bold rounded-full overflow-hidden shadow-2xl w-full sm:w-auto"
               >
                 <motion.div
                   className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500"

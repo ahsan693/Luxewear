@@ -83,7 +83,7 @@ const ProductModal = ({ product, isOpen, onClose }) => {
 
               {/* Content */}
               <div className="flex-1 overflow-y-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-[35%_65%] gap-6 lg:gap-10 p-6 lg:p-8 xl:p-10">
+                <div className="grid grid-cols-1 lg:grid-cols-[35%_65%] gap-4 sm:gap-6 lg:gap-10 p-4 sm:p-6 lg:p-8 xl:p-10">
                   {/* Left Side - Image Gallery */}
                   <div className="space-y-4">
                     {/* Main Image */}
@@ -140,14 +140,14 @@ const ProductModal = ({ product, isOpen, onClose }) => {
                   </div>
 
                   {/* Right Side - Product Details */}
-                  <div className="space-y-7 lg:space-y-9">
+                  <div className="space-y-4 sm:space-y-6 lg:space-y-9">
                     {/* Product Name */}
                     <motion.div
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.35 }}
                     >
-                      <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+                      <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 dark:text-white mb-4">
                         {product.name}
                       </h1>
                       <div className="flex items-center gap-2 mb-4">
