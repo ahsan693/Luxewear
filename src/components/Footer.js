@@ -47,11 +47,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Shop</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-pink-500 transition-colors">New Arrivals</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-pink-500 transition-colors">Men's Collection</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-pink-500 transition-colors">Women's Collection</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-pink-500 transition-colors">Accessories</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-pink-500 transition-colors">Sale</a></li>
+              <li><a href="#products" className="text-gray-400 hover:text-pink-500 transition-colors">New Arrivals</a></li>
+              <li><a href="#products" className="text-gray-400 hover:text-pink-500 transition-colors">Men's Collection</a></li>
+              <li><a href="#products" className="text-gray-400 hover:text-pink-500 transition-colors">Women's Collection</a></li>
+              <li><a href="#products" className="text-gray-400 hover:text-pink-500 transition-colors">Accessories</a></li>
+              <li><a href="#products" className="text-gray-400 hover:text-pink-500 transition-colors">Sale</a></li>
             </ul>
           </div>
 
@@ -59,11 +59,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Company</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-pink-500 transition-colors">About Us</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-pink-500 transition-colors">Sustainability</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-pink-500 transition-colors">Careers</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-pink-500 transition-colors">Press</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-pink-500 transition-colors">Contact</a></li>
+              <li><a href="#features" className="text-gray-400 hover:text-pink-500 transition-colors">About Us</a></li>
+              <li><a href="#features" className="text-gray-400 hover:text-pink-500 transition-colors">Sustainability</a></li>
+              <li><a href="#home" className="text-gray-400 hover:text-pink-500 transition-colors">Careers</a></li>
+              <li><a href="#home" className="text-gray-400 hover:text-pink-500 transition-colors">Press</a></li>
+              <li><a href="#home" className="text-gray-400 hover:text-pink-500 transition-colors">Contact</a></li>
             </ul>
           </div>
 
@@ -71,11 +71,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Support</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-pink-500 transition-colors">Help Center</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-pink-500 transition-colors">Shipping Info</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-pink-500 transition-colors">Returns</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-pink-500 transition-colors">Size Guide</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-pink-500 transition-colors">Track Order</a></li>
+              <li><a href="#features" className="text-gray-400 hover:text-pink-500 transition-colors">Help Center</a></li>
+              <li><a href="#features" className="text-gray-400 hover:text-pink-500 transition-colors">Shipping Info</a></li>
+              <li><a href="#features" className="text-gray-400 hover:text-pink-500 transition-colors">Returns</a></li>
+              <li><a href="#products" className="text-gray-400 hover:text-pink-500 transition-colors">Size Guide</a></li>
+              <li><a href="#home" className="text-gray-400 hover:text-pink-500 transition-colors">Track Order</a></li>
             </ul>
           </div>
         </div>
